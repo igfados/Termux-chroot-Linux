@@ -9,14 +9,6 @@ pkg install virglrenderer-android
 ```
 
 ```
-pkg install mesa-zink virglrenderer-mesa-zink vulkan-loader-android
-```
-
-```
-MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink ZINK_DESCRIPTORS=lazy virgl_test_server --use-egl-surfaceless &
-```
-
-```
 pkg update
 pkg install tsu pulseaudio
 su
