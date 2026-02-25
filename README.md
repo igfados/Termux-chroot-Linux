@@ -114,7 +114,7 @@ EOF
 ```
 
 ```
-nano .shortcuts/start_chrootubuntu.sh
+vi .shortcuts/start_chrootubuntu.sh
 ```
 
 ```
