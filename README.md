@@ -5,6 +5,10 @@
 ## CMD INSTALL
 
 ```
+pkg install virglrenderer-android
+```
+
+```
 pkg install tur-repo
 pkg update -y && pkg upgrade -y
 pkg install mesa-zink virglrenderer-mesa-zink vulkan-loader-android
