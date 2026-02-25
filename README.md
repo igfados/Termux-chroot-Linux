@@ -114,8 +114,6 @@ EOF
 ```
 
 ```
-touch .shortcuts/start_chrootubuntu.sh
-chmod +x .shortcuts/start_chrootubuntu.sh
 vim .shortcuts/start_chrootubuntu.sh
 ```
 
@@ -143,6 +141,11 @@ virgl_test_server_android &
 
 # Execute chroot Ubuntu script
 su -c "sh /data/local/tmp/startu.sh"
+```
+
+```
+touch .shortcuts/start_chrootubuntu.sh
+chmod +x .shortcuts/start_chrootubuntu.sh
 ```
 
 ```
