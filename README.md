@@ -2,7 +2,18 @@
 <p align="center">
 </p>
 
-## CMD INSTALL 
+## CMD INSTALL
+
+```
+pkg install tur-repo
+pkg update -y && pkg upgrade -y
+pkg install mesa-zink virglrenderer-mesa-zink vulkan-loader-android
+```
+
+```
+MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink ZINK_DESCRIPTORS=lazy virgl_test_server --use-egl-surfaceless &
+```
+
 ```
 pkg update
 pkg install tsu pulseaudio
@@ -146,14 +157,5 @@ su -c "sh /data/local/tmp/startu.sh"
 ```
 touch start_chrootubuntu.sh
 chmod +x start_chrootubuntu.sh
-```
-
-```
-pkg install tur-repo
-pkg update -y && pkg upgrade -y
-pkg install mesa-zink virglrenderer-mesa-zink vulkan-loader-android
-```
-
-```
-MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink ZINK_DESCRIPTORS=lazy virgl_test_server --use-egl-surfaceless &
+./start_chrootubuntu.sh
 ```
