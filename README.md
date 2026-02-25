@@ -114,7 +114,7 @@ EOF
 ```
 
 ```
-vi .shortcuts/start_chrootubuntu.sh
+vi start_chrootubuntu.sh
 ```
 
 ```
@@ -144,8 +144,8 @@ su -c "sh /data/local/tmp/startu.sh"
 ```
 
 ```
-touch .shortcuts/start_chrootubuntu.sh
-chmod +x .shortcuts/start_chrootubuntu.sh
+touch start_chrootubuntu.sh
+chmod +x start_chrootubuntu.sh
 ```
 
 ```
